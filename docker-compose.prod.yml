@@ -1,0 +1,7 @@
+
+version: '3.7'
+services:
+ webserver:
+   image: andreaskoch/http-410-gone-responder
+   ports:
+     - "80:80"
